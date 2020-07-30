@@ -82,7 +82,6 @@ h1 {
   width: 71%;
   color: white;
   transition: all 0.5s;
-
 }
 
 .article {
@@ -144,22 +143,24 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
 .information > p{
   color: black;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
 }
+
 .information > h2 , .information > p{
   position: relative;
   top: -20%;
 }
+
 .sub-article {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
+
 .sub-sub-article{
   background-color: white;
   width: 25vw;
@@ -173,9 +174,11 @@ h1 {
   text-align: center;
   margin: 20px;
 }
+
 .sub-sub-article p{
   font-size: 19px;
 }
+
 .sub-sub-article h2{
   background-image: linear-gradient(to bottom, #1ef61e, #2cd312, #2fb107, #2d9001, #277100);
   margin: 0;
@@ -184,6 +187,7 @@ h1 {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
 .sub-article:nth-child(1) {
   flex-basis: 20%;
   margin: 10px;
@@ -197,36 +201,29 @@ h1 {
 
 .sub-article:nth-child(2) {
   flex-basis: 80%;
-  /*background-color: #83781B;*/
   margin: 10px;
+  margin-left: 30px;
   color: white;
   font-size: 20px;
-  margin-left: 30px;
-  /*background-color: #95B46A;*/
 }
 
 .sub-article:nth-child(3) {
   flex-basis: 80%;
-  /*background-color: #83781B;*/
   margin: 10px;
   color: white;
   font-size: 20px;
   margin-left: 30px;
-  /*background-color: #95B46A;*/
 }
 
 .sub-article:nth-child(4) {
   flex-basis: 80%;
-  /*background-color: #83781B;*/
   margin: 10px;
   color: white;
   font-size: 20px;
   margin-left: 30px;
-  /*background-color: #95B46A;*/
 }
 
 .article-contact {
-  
   margin: 10px;
   display: flex;
   flex-direction: row;
@@ -257,14 +254,12 @@ h1 {
   flex-direction: column;
   flex-basis: 85%;
   background-color: white;
-  
   border-radius: 15px;
   box-shadow: 4px 4px 18px -2px rgba(0,0,0,0.75);
   margin: 10px;
 }
 
 .sub-article-info {
-  /*background-color: #95B46A;*/
   flex-basis: 100%;
   margin: 10px;
   color: black;
@@ -312,23 +307,19 @@ td,
 tr {
   border: 2px solid black;
 }
+
 table{
   border-radius: 10px;
 }
+
 thead{
   background-image: linear-gradient(to bottom, #1ef61e, #2cd312, #2fb107, #2d9001, #277100);
   color: white;
   
 }
+
 tr:nth-child(even) {
   background-color: #f2f2f2;
-}
-tbody {
-  
-}
-
-thead {
-  background-color: grey;
 }
 
 td {
@@ -339,6 +330,7 @@ td {
   color: black;
   font-size: 20px;
 }
+
 .contact {
   display: flex;
   flex-direction: row;
@@ -358,7 +350,6 @@ td {
 }
 
 .sub-article-rules {
-  /*background-color: #95B46A;*/
   flex-basis: 100%;
   margin: 10px;
 }
@@ -409,13 +400,11 @@ li {
 }
 
 .button {
-  
   font-size: 22px;
   color: white;
   height: 50px;
   width: 140px;
   border: none;
-  
   margin: 10px 0;
   background-image: linear-gradient(to bottom, #1ef61e, #2cd312, #2fb107, #2d9001, #277100);
   box-shadow: 0 0 #95b46a inset ;
@@ -423,7 +412,6 @@ li {
 }
 .button:hover {
   box-shadow: 150px  0 #95b46a inset;
-  
   transition: all 0.5s;
 }
 .form{
@@ -462,8 +450,6 @@ fieldset{
 .form-fieldset-column-one{
   display: flex;
   flex-direction: column;
-  
-  
   text-align: center;
 }
 .form-one, .form-two, .form-three, .form-four, .form-five{
@@ -474,7 +460,6 @@ input{
   background: none;
   border: none;
   border-bottom: 2px solid black;
-  
   font-size: 20px;
   padding: 10px;
   outline: none;
@@ -515,7 +500,6 @@ label{
 }
 
 @media (max-width: 900px) {
-  
   .section {
     display: flex;
     flex-direction: column;
@@ -537,7 +521,6 @@ label{
     border-top-right-radius: 20px;
   }
   .sub-article {
-  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -549,7 +532,6 @@ label{
   
 }
 @media (max-width: 610px) {
-  
   .article {
     display: flex;
     flex-direction: column;
